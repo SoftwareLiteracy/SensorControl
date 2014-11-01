@@ -1,0 +1,75 @@
+# Sensor parameter file for monitorgui (Monitor.py)
+# Rules:
+#    Only one parameter allowed per line
+
+Sensor {
+   IP            =  192.168.1.52 
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN052_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler4.4.0.sh 
+}
+
+Sensor {
+   IP            =  192.168.1.106
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN106_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler4.4.0.sh
+}
+
+Sensor {
+   IP            =  192.168.1.135
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN135_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler4.4.0.sh
+}
+
+Sensor {
+   IP            =  192.168.1.126
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN126_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler4.4.0.sh
+}
+
+Sensor {
+   IP            =  192.168.1.169
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN169_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler4.4.0.sh
+}
+
+Sensor {
+   IP            =  192.168.1.112
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN112_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler.sh
+}
+
+Sensor {
+   IP            =  192.168.1.211
+   ConfigInPath  =  ../configFiles/
+   ConfigInFile  =  SN211_UMSX1.4.cfg
+   ConfigOutPath =  ~/
+   ConfigOutFile =  UMSX1.4.cfg
+   UMXStart      =  run_scheduler.sh
+}
+
+#Sensor {
+#   IP            =  192.168.1.173
+#   ConfigInPath  =  ../configFiles/
+#   ConfigInFile  =  SN173_UMSX1.4.cfg
+#   ConfigOutPath =  ~/
+#   ConfigOutFile =  UMSX1.4.cfg
+#   UMXStart      =  run_scheduler.sh
+#}
